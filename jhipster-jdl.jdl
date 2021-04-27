@@ -1,0 +1,30 @@
+
+entity Produto {
+	nome String,
+    categoria String,
+    finalidade String,
+    descricao String,
+    ncm String
+}
+
+entity Empresa {
+	nome String,
+    cnpj String,
+    localidade String,
+    segmento String
+}
+
+relationship OneToMany {
+	Empresa to Produto{empresa}
+}
+
+
+
+// Set pagination options
+paginate Produto, Empresa with infinite-scroll
+
+// Use Data Transfer Objects (DTO)
+dto * with mapstruct
+
+// Set an angular suffix
+// angularSuffix * with mySuffix
