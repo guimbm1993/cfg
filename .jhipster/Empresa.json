@@ -1,0 +1,39 @@
+{
+  "name": "Empresa",
+  "fields": [
+    {
+      "fieldName": "nome",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "cnpj",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "localidade",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "segmento",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "produto",
+      "otherEntityRelationshipName": "empresa",
+      "relationshipName": "produto"
+    }
+  ],
+  "entityTableName": "empresa",
+  "dto": "mapstruct",
+  "pagination": "infinite-scroll",
+  "service": "serviceClass",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20210427231034"
+}

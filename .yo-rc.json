@@ -40,6 +40,8 @@
     "nativeLanguage": "pt-br",
     "packageFolder": "com/mycompany/myapp",
     "clientPackageManager": "npm",
-    "languages": ["pt-br"]
+    "languages": ["pt-br"],
+    "entities": ["Produto", "Empresa"],
+    "lastLiquibaseTimestamp": 1619565034000
   }
 }

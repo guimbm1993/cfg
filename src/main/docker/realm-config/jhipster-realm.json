@@ -23,7 +23,7 @@
   "actionTokenGeneratedByAdminLifespan": 43200,
   "actionTokenGeneratedByUserLifespan": 300,
   "enabled": true,
-  "sslRequired": "external",
+  "sslRequired": "None",
   "registrationAllowed": false,
   "registrationEmailAsUsername": false,
   "rememberMe": false,
@@ -691,7 +691,13 @@
       "alwaysDisplayInConsole": false,
       "clientAuthenticatorType": "client-secret",
       "secret": "jhipster-control-center",
-      "redirectUris": ["dev.localhost.ionic:*", "http://127.0.0.1:*", "http://localhost:*", "https://127.0.0.1:*", "https://localhost:*"],
+      "redirectUris": [
+        "dev.3.236.218.1.ionic:*",
+        "http://3.236.218.1:*",
+        "http://3.236.218.1:*",
+        "https://3.236.218.1:*",
+        "https://3.236.218.1:*"
+      ],
       "webOrigins": ["*"],
       "notBefore": 0,
       "bearerOnly": false,
@@ -811,7 +817,13 @@
       "alwaysDisplayInConsole": false,
       "clientAuthenticatorType": "client-secret",
       "secret": "web_app",
-      "redirectUris": ["dev.localhost.ionic:*", "http://127.0.0.1:*", "http://localhost:*", "https://127.0.0.1:*", "https://localhost:*"],
+      "redirectUris": [
+        "dev.3.236.218.1.ionic:*",
+        "http://3.236.218.1:*",
+        "http://3.236.218.1:*",
+        "https://3.236.218.1:*",
+        "https://3.236.218.1:*"
+      ],
       "webOrigins": ["*"],
       "notBefore": 0,
       "bearerOnly": false,
