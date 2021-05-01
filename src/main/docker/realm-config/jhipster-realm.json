@@ -692,11 +692,11 @@
       "clientAuthenticatorType": "client-secret",
       "secret": "jhipster-control-center",
       "redirectUris": [
-        "dev.3.236.218.1.ionic:*",
-        "http://3.236.218.1:*",
-        "http://3.236.218.1:*",
-        "https://3.236.218.1:*",
-        "https://3.236.218.1:*"
+        "dev.18.206.238.243.ionic:*",
+        "http://18.206.238.243:*",
+        "http://18.206.238.243:*",
+        "https://18.206.238.243:*",
+        "https://18.206.238.243:*"
       ],
       "webOrigins": ["*"],
       "notBefore": 0,
@@ -818,11 +818,11 @@
       "clientAuthenticatorType": "client-secret",
       "secret": "web_app",
       "redirectUris": [
-        "dev.3.236.218.1.ionic:*",
-        "http://3.236.218.1:*",
-        "http://3.236.218.1:*",
-        "https://3.236.218.1:*",
-        "https://3.236.218.1:*"
+        "dev.18.206.238.243.ionic:*",
+        "http://18.206.238.243:*",
+        "http://18.206.238.243:*",
+        "https://18.206.238.243:*",
+        "https://18.206.238.243:*"
       ],
       "webOrigins": ["*"],
       "notBefore": 0,
